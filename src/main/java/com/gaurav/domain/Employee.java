@@ -9,7 +9,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @SuppressWarnings("serial")
 @Entity
-@Table(name = "admins")
+@Table(name = "Employee")
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Employee {
 	
